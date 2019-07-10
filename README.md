@@ -10,4 +10,6 @@ object_lon | dwc:decimalLongitude |
 object_date | dwc:eventDate | ISO8601 format: yyyy-mm-dd
 object_time | dwc:eventTime | ISO8601 format: hh:mm:ss
 object_depth_min  | dwc:minimumDepthInMeters  |	
-object_depth_max  | maximumDepthInMeters	|
+object_depth_max  | dwc:maximumDepthInMeters	|
+object_annotation_status  | dwc:identificationVerificationStatus	|
+object_annotation_person_name | dwc:identifiedBy  |
