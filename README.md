@@ -4,8 +4,10 @@ This repo is to document the mapping of EcoTaxa data fields with Darwin Core ter
 
 ECOTAXA | Darwin Core | Comments
 --- | --- | :---
-object_id  | dwc:occurrenceID |
+object_id  | dwc:occurrenceID | this can be dwc:eventID if eventCore is used
 object_lat | dwc:decimalLatitude  |
-object_lon | decimalLongitude |
+object_lon | dwc:decimalLongitude |
 object_date | dwc:eventDate | ISO8601 format: yyyy-mm-dd
 object_time | dwc:eventTime | ISO8601 format: hh:mm:ss
+object_depth_min  | dwc:minimumDepthInMeters  |	
+object_depth_max  | maximumDepthInMeters	|
